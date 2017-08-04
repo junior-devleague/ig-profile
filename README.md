@@ -24,7 +24,7 @@ Create a link tag for your CSS stylesheet in your html document.
 2. Create a container for all of your icons and pictures using a **div** tag and set the value of the id attribute to `container`
 
 
-3. Within your container div, in chronological order: 
+3. Within your container div, in **chronological** order: 
   - Create a **div** tag with an id of `top-bar`
   - Create a **div** tag with an id of `follower-count`
   - Create a **div** tag with an id of `bio`
