@@ -91,7 +91,7 @@ Create a link tag for your CSS stylesheet in your html document.
   - Set the background image to `Bottom-Bar.png` found in the *images* folder
 
 
-10. Continue modify your elements with these style attributes:
+10. Continue to modify your elements with these style attributes:
   - `padding`
   - `margin`
   - `font-size`
