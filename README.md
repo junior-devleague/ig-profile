@@ -96,6 +96,6 @@ Create a link tag for your CSS stylesheet in your html document.
 
 ## Stretch Goals:
   - Use a **hover** pseudo selector to enlarge the picture when hovering over it
-  - add more pictures while maintaining 3 pictures per row
+  - Add more pictures while maintaining 3 pictures per row
   - Since IG lets users post videos, add a video to you profile with **video** tag
   - Currently there are no numbers above your followers and posts, add numbers above it
