@@ -11,8 +11,8 @@ Please create the following files:
 
 Create a link tag for your CSS stylesheet in your html document.
 
-Here's an example of your final product
 <p align="center">
+*Here's an example of your final product:*
 <img src="images/Example.png"></img>
 </p>
 
