@@ -1,14 +1,14 @@
 # Welcome To Instagram!
-You will be recreating your personal instagram profile!
+You will be recreating your personal Instagram profile! If you do not have an Instagram profile you may look one up to recreate.
 
 ## Before you begin
-Please create a mockup of your profile for an instructor to approve :)
+- Find the profile that you want to recreate and get an instructor's approval. **NO INAPPROPRIATE PROFILES ALLOWED!**
+- Create a mockup of your profile for an instructor to approve :)
 
 ## Set-up your files
 Please create the following files:
 - index.html
-- styles.css
-
+- styles.css<br>
 Create a link tag for your CSS stylesheet in your html document.
 
 <br/>
@@ -18,62 +18,59 @@ Create a link tag for your CSS stylesheet in your html document.
 </p>
 
 ## HTML
-1. Create a header containing your username of your instagram profile using a **header** tag
+1. Create a header containing the username of your instagram profile using a **header** tag.
 
 
-2. Create a container for all of your icons and pictures using a **div** tag and set the value of the id attribute to `container`
+2. Create a main container for all of your icons and pictures using a **div** tag and set the value of the id attribute to `container`.
 
 
-3. Within your container div, in **chronological** order: 
+3. Within your `container` div, in **chronological** order: 
   - Create a **div** tag with an id of `top-bar`
   - Create a **div** tag with an id of `follower-count`
   - Create a **div** tag with an id of `bio`
   - Create a **div** tag with an id of `photo-bar`
   - Create a **div** tag with an id of `pictures`
-  - Create a **div** tag with an id of `bottom-bar`
+  - Create a **div** tag with an id of `bottom-bar`<br>
+_All divs should be sibilings inside the `container` div_
+
+4. Inside the **div** with the id of `top-bar`, create a header using the **h1** tag containing the IG username; give this header an id of `username`.
 
 
-4. Inside the **div** with the id of `top-bar`, create a header using the **h1** tag containing your IG username; give this header an id of `username`
+5. Inside the **div** with the id of `follower-count`, add an **image** tag with an id of `profile-picture`.
 
 
-5. Inside the **div** with the id of `follower-count`, add an **image** tag with an id of `profile-picture`
+6. Inside the **div** tag with an id of `bio`, add a **paragraph** tag containing information about you.
 
 
-6. Inside the **div** tag with an id of `bio`, add a **paragraph** tag containing information about you
-
-
-7. Inside the **div** tag with an id of `pictures`, add a **minimum of six** pictures using **image** tags assigning each with a *class* of `image`
-
-
-*BONUS* Wouldn't it be cool if each profile could make a sound? Add an audio tag to each pet profile.
+7. Inside the **div** tag with an id of `pictures`, add a **minimum of six** pictures using **image** tags assigning each with a *class* of `ig-image`.
 
 ## CSS
-1. Set the background color of the body using the `element` selector.
+1. In your CSS file, set the background color of the body.
 
 
-2. Using the `id` selector, modify the container accordingly: 
-  - Assign it a width of 1080 pixels
-  - Align it in the center of the page
+2. Using the `id` selector, modify the styles of the `container` accordingly: 
+  - Give it a width of 1080 pixels
+  - Align it to the center of the page
   - Set the background color to white
-  - Using the **border** property, add a *solid* border with a 3px width and hex color #DDDDDD
+  - Using the border style property, add a solid border with a 3px width and hex color #DDDDDD
 
 
 3. Using the `id` selector, modify `top-bar` accordignly:
-  - Assign it a height of 145 pixels
+  - Give it a height of 145 pixels
   - Set the background image to `Top-Bar.png` found in the *images* folder
-  - Ensure that the background image does not repeat (hint: `norepeat`)
+  - Ensure that the background image does not repeat 
 
 
-4. Using the `id` selector, center your username within the `top-bar` (hint: `inline-block`, margin-left, margin-top)
+4. Using the `id` selector, center your username within the `top-bar`.
 
 
 5. Using the `id` selector, modify `follower-count` accordignly:
-  - Assign it a height of 355 pixels
+  - Give it a height of 355 pixels
   - Set the background image to `Follower-Count.png` found in the *images* folder
 
 
 6. Using the `id` selector, modify `profile-picture` accordignly:
-  - Crop your profile picture to the shape of a circle (hint: border-radius)
+  - Crop your profile picture to the shape of a circle 
   - Assign it a height and width of 255 pixels
   - Using margin-top and margin-left, position your profile pic within the background circle
 
@@ -91,7 +88,7 @@ Create a link tag for your CSS stylesheet in your html document.
   - Set the background image to `Bottom-Bar.png` found in the *images* folder
 
 
-10. Continue to modify your elements with these style attributes:
+10. Continue to modify your elements with these style properties:
   - `padding`
   - `margin`
   - `font-size`
@@ -105,3 +102,9 @@ Create a link tag for your CSS stylesheet in your html document.
   - Add more pictures while maintaining 3 pictures per row
   - Since IG lets users post videos, add a video to you profile with **video** tag
   - Currently there are no numbers above your followers and posts, add numbers above it
+  
+## Resources:
+Background Repeat - https://www.w3schools.com/cssref/pr_background-repeat.asp<br>
+In-Line Block - https://www.w3schools.com/css/css_inline-block.asp<br>
+Border Radius - https://www.w3schools.com/cssref/css3_pr_border-radius.asp<br>
+Display Property - https://www.w3schools.com/cssref/pr_class_display.asp
