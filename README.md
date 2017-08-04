@@ -11,6 +11,11 @@ Please create the following files:
 
 Create a link tag for your CSS stylesheet in your html document.
 
+Here's an example of your final product
+<p align="center">
+<img src="images/Example.png"></img>
+</p>
+
 ## HTML
 1. Create a header containing your username of your instagram profile using a **header** tag
 
